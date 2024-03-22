@@ -17,11 +17,6 @@ public class TryTest {
         runnable.run();
     }
 
-    @Test
-    public void test() throws Exception {
-        System.out.println(aa());
-    }
-
     int print() {
         System.out.println("print");
         return 11;

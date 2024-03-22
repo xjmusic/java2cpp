@@ -81,23 +81,6 @@ public class Conv {
     }
 
     @Test
-    public void testRust() throws IOException {
-        String dir = "/home/mesut/Desktop/j2cpp-dev/dx-org/src";
-        //String out = "/home/mesut/Desktop/j2cpp-dev/dx-cpp";
-        String out = "/home/mesut/Desktop/j2cpp-dev/dx-rust";
-        Converter converter = new Converter(dir, out, true);
-        //converter.addClasspath(rtJar);
-        Config.mainClass = "Tool";
-        //converter.getFilter().addIncludeClass("Tool");
-        //converter.getFilter().addIncludeClass("com/android/dx/rop/code/Insn.java");
-        //converter.getFilter().addIncludeClass("com/android/dx/util/Output.java");
-        //converter.getFilter().addIncludeClass("com/android/dx/dex/code/PositionList.java");
-        //converter.getFilter().addIncludeClass("com/android/dx/rop/code/RegOps");
-        //converter.convert();
-        converter.stats();
-    }
-
-    @Test
     public void testMy() throws IOException {
         String dir = "/home/mesut/Desktop/IdeaProjects/java2cpp/asd/test/java";
         String out = "/home/mesut/Desktop/IdeaProjects/java2cpp/asd/test/cpp";
